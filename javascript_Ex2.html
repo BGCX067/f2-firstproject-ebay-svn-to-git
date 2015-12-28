@@ -1,0 +1,21 @@
+<html>
+<head> <title> I'm studying Javascript and Jquery</title>
+</head>
+<body>
+<p> First I want to review Javascript </p>
+<p><h3> Next, I will study JQuery </h3></p>
+<br/>
+First Name : <input type="text" value="aaa" id="FirstName"/>
+<br/>
+Second Name <input type="text" value="bbb" id="SecondName" />
+<br/>
+<script type="text/javascript">
+	function sayHello()
+	{
+		var first = document.getElementById("FirstName").attributes["value"].nodeValue;
+		alert(first);
+	}
+</script>
+<input type="button" value="Click Here" onclick="sayHello()"/>
+</body>
+</html>
